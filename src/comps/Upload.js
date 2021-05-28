@@ -41,7 +41,7 @@ function Upload() {
             </div>
 
             <div className="flex flex-row justify-start mt-4">
-            {file ? <ProgressBar file={file} setFile={setFile}/> : null}
+            {file ? <ProgressBar files={file} setFiles={setFile}/> : null}
             </div>
 
 
